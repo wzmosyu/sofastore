@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(228, 228, 228);
+}
+.row {
+    background-color: rgb(255, 255, 255);
+}
+
+.row .card:hover {
+    box-shadow: 3px 3px 6px rgb(0, 0, 0,0.2);
+    transform: scale(1.02);
+}
+.col-md-3 {
+}
+.topbar-dropdownn {
+    margin-top: -6px;
+}
+
+i.fas , i.far {
+    color: orange;
+}
+.card-body h5 {
+    margin-top: -15px;
+}
+.card-body p {
+    margin-top: -5px;
+}
+
+footer a {
+    color: white;
+}
+
+footer li {
+    margin-left: -18px;
+    margin-top: 10px;
+}
+footer h5 {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:375px) {
+    .card-pos {
+        position: relative;
+        left: 19%;
+    }
+}

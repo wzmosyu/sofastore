@@ -1,0 +1,120 @@
+.jumbotron{
+    height: 660px;
+    background-size: cover;
+    margin-bottom: -10px;
+}
+.title{
+        text-align: center;
+        color: #fff;
+        font-family: yellowtail;
+        font-size: 30pt;
+        padding-top: 10px;
+    }
+
+    .form{
+        display: block;
+        border: 2px solid rgba(105, 105, 105, 0.9);
+        align-items: center;
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-top: 80px;
+        background-color: rgba(105, 105, 105, 0.5);
+        border-radius: 10px;
+        box-shadow: 15px 15px 15px rgba(169,169,169, 0.3);
+    }
+    .form-group{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    label{
+        color: #fff;
+        font-size: 10pt;
+    }
+    .form-text{
+        font-size: 8pt;
+        color: white;
+    }
+
+    input[type="text"],
+    input[type="password"]{
+        background-color: rgba(256, 256, 256, 0.5);
+        border: 0;
+        font-size: 8pt;
+    }
+
+    .check{
+        margin-left: 20px;
+        font-size: 8pt;
+    }
+
+    .button{
+        padding-left: 20px;
+        padding-bottom: 20px;
+        border-radius: 20px;
+    }
+    .btn{
+        background-color: rgba(105, 105, 105, 0.7);
+        border: 0;
+    }
+    .btn:hover{
+        background-color: rgba(105, 105, 105, 1);
+    }
+
+
+
+
+
+
+
+/* DEKSTOP VERSION */
+@media (min-width: 992px){
+    .title{
+        text-align: center;
+        color: #fff;
+        font-family: yellowtail;
+        font-size: 40pt;
+        padding-top: 10px;
+    }
+
+    .form{
+        display: block;
+        border: 2px solid rgba(105, 105, 105, 0.9);
+        align-items: center;
+        margin-right: 35%;
+        margin-left: 35%;
+        margin-top: 80px;
+        background-color: rgba(105, 105, 105, 0.5);
+        border-radius: 10px;
+    }
+    .form-group{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    label{
+        color: #fff;
+        font-size: 12pt;
+    }
+    .form-text{
+        font-size: 8pt;
+        color: white;
+    }
+
+    input[type="text"],
+    input[type="password"]{
+        background-color: rgba(256, 256, 256, 0.5);
+        border: 0;
+        font-size: 10pt;
+    }
+
+    .check{
+        margin-left: 20px;
+    }
+
+    .button{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+
+}
